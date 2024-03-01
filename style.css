@@ -169,6 +169,30 @@ body.dark-mode #presentation {
 background-color: #121212; /* Fond sombre en mode sombre */
 }
 
+.custom-link-2 {
+   color: #C26C6B;
+}
+
+
+/* Mode clair */
+.social-icons {
+   stroke: #444243; /* Couleur pour le mode clair */
+}
+
+/* Mode sombre */
+body.dark-mode .social-icons {
+   stroke: #cdcbcc; /* Couleur pour le mode sombre */
+}
+
+
+/* Ajoutez un style pour l'espace entre les icônes */
+.social-icons .icon-spacing {
+   margin-right: 30px; /* Ajustez la valeur selon vos besoins */
+}
+
+
+
+
 
  /* Styles pour le bouton télécharger mon cv */
 
@@ -1029,37 +1053,17 @@ span.h2.contact-title {
 
 
 
-  #contact-info,
-  #liens-sociaux {
-      display: flex;
-      flex-direction: column;
-      align-items: left;
-      justify-content: center; /* Ajout de cette ligne pour centrer le contenu verticalement */
-      background-color: #ffffff;
-      color: #444243;
-      border-radius: 5px;
-      margin-bottom: 20px;
-      padding: 20px;
-      min-height: 150px; /* Ajustez cette valeur selon vos besoins */
-  }
-
-body.dark-mode  #contact-info,
-body.dark-mode #liens-sociaux {
-   background-color: #25221f;
-   color: #cdcbcc; /* Couleur du texte en mode sombre */
-}
-
-
+  
 
 
 
 /* Styles par défaut pour les écrans de toutes tailles */
 .email-text {
-   font-size: 1.2vw;
+   
    font-weight: bold;
    color: #444243;
    text-decoration: none;
-   margin-left: 10px;
+   margin-left: -10px;
 }
 
 body.dark-mode .email-text {
@@ -1068,140 +1072,65 @@ body.dark-mode .email-text {
 
 
 
+
+
 @media (max-width: 768px) {
-   .email-text {
-       font-size: 2.05vw; /* Ajustez la taille de la police uniquement pour l'adresse e-mail sur les écrans plus petits */
-       
+   .contact-text {
+       font-size: 1.2vw; /* Ajustez la taille de la police pour le texte et l'adresse e-mail sur les écrans plus petits */
    }
 }
 
 
 
-/* Styles par défaut pour les écrans de toutes tailles */
-.follow-text {
-   font-size: 2.5vw;
-   color: #444243;
-}
-body.dark-mode .follow-text {
-   color: #cdcbcc; /* Couleur du texte en mode sombre */
-}
 
-/* Media query pour les écrans dont la largeur est supérieure à 768 pixels (par exemple, les écrans PC) */
-@media (min-width: 769px) {
-   .follow-text {
-       font-size: 1.4vw; /* Ajustez la taille de la police uniquement pour les écrans PC */
-   }
+.profile-text {
+   padding-top: 20px; /* Ajoutez l'espace supérieur souhaité */
+   padding-bottom: 20px; /* Ajoutez l'espace inférieur souhaité */
 }
 
 
 
-  .email-icon {
-   background-color: #444243;
-   border-radius: 50%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   margin-bottom: 1vw; /* Utiliser une unité relative */
-   color: #fff;
-}
 
-body.dark-mode .email-icon {
-   background-color: #cdcbcc; /* Couleur du fond icône en mode sombre */
-   color: #000000; /* Couleur enveloppe icône en mode sombre */
-}
-.email-icon i {
-   font-size: 2vw; /* Ajuster la taille de l'icône en fonction de la largeur de la vue */
+
+
+  
+
+
+.form-container,
+#map {
+   height: 100%; /* ou toute autre hauteur que vous souhaitez */
 }
 
 
-.linkedin-icon,
-.github-icon {
-   background-color: #444243;
-   color: #fff;
-   border-radius: 50%;
-   text-align: center;
-   text-decoration: none;
 
-}
 
-body.dark-mode .linkedin-icon,
-body.dark-mode .github-icon {
-   background-color: #cdcbcc; /* Couleur du fond icône en mode sombre */
-   color: #000000; /* Couleur enveloppe icône en mode sombre */
-}
+   
 
-.linkedin-icon:hover,
-.github-icon:hover {
-   color: #fff;
-}
-
-/* Styles par défaut pour les écrans de toutes tailles */
-.email-icon,
-.linkedin-icon,
-.github-icon {
-    width: 2.5vw; /* Ajuster la taille fond uni icone en fonction de la largeur de la vue */
-    height: 2.5vw; /* Ajuster la taille fond uni icone en fonction de la largeur de la vue */
-    font-size: 1.7vw; /* Ajuster la taille logo blanc de la police en fonction de la largeur de la vue */
-}
-
-.email-icon i {
-    font-size: 1.4vw; /* Ajuster la taille de l'icône blanche en fonction de la largeur de la vue */
-}
-
-.linkedin-icon,
-.github-icon {
-    line-height: 2.4vw; /* Ajuster la taille hauteur verticale logo blanc en fonction de la largeur de la vue */
-    margin-left: 0vw; /* Utiliser une unité relative */
-    margin-top: -2.5vw; /* Utiliser une unité relative */
-    margin-right: 0.5vw; /* Utiliser une unité relative */
-}
-
-/* Media query pour les écrans dont la largeur est inférieure à 768 pixels (taille typique des smartphones) */
-@media (max-width: 768px) {
-    .email-icon,
-    .linkedin-icon,
-    .github-icon {
-        width: 5vw; /* Ajuster la taille fond uni icone pour les petits écrans */
-        height: 5vw; /* Ajuster la taille fond uni icone pour les petits écrans */
-        font-size: 3.5vw; /* Ajuster la taille logo blanc de la police pour les petits écrans */
-    }
-
-    .email-icon i {
-        font-size: 3vw; /* Ajuster la taille de l'icône blanche pour les petits écrans */
-    }
-
-    .linkedin-icon,
-    .github-icon {
-        line-height: 4.6vw; /* Ajuster la taille hauteur verticale logo blanc pour les petits écrans */
-        margin-left: 0vw; /* Ajuster la marge pour les petits écrans */
-        margin-top: -2vw; /* Ajuster la marge pour les petits écrans */
-        margin-right: 1vw; /* Ajuster la marge pour les petits écrans */
-    }
-}
 
   
 /* Style par défaut */
 #map {
    filter: grayscale(100%);
-   height: 800px;
-   border: 5px solid #fff;
+   
+   border: 5px solid;
+   border-color: #FFF;
    border-radius: 5px;
 }
 
 /* Style pour le mode sombre (avec inversion des couleurs et bordure sombre) */
 .dark-mode #map {
    filter: invert(100%);
-   border-color: #25221f;
+ 
 }
 
 
-
-  @media screen and (max-width: 768px) {
-      #contact-info,
-      #liens-sociaux {
-          width: 100%;
-      }
-  }
+/* Style pour les écrans plus petits (par exemple, les téléphones) */
+@media screen and (max-width: 767px) {
+   #map {
+      height: 200px;
+   }
+}
+  
   
 
 

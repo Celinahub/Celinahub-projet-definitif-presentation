@@ -100,7 +100,7 @@ updateMenuItem('technical', lang, 'Technique', 'Technical');
 
 // Contenu traduisible de la frise chronologique des experiences
 updateMenuItem('experiences-title', lang, 'Expériences', 'Experiences');
-updateMenuItem('nursery', lang, 'ASSISTANTE MATERNELLE AGRÉÉE', 'APPROVED NURSERY ASSISTANT');
+updateMenuItem('nursery', lang, 'ASSISTANTE MATERNELLE AGRÉÉE', 'REGISTERED CHILDMINDER');
 updateMenuItem('reception-project', lang, 'Site de mon projet d\'accueil en projet', 'Website of my planned reception project');
 updateMenuItem('independent', lang, 'Indépendante', 'Independent');
 updateMenuItem('present', lang, '2017 à aujourd\'hui', '2017 to present');
@@ -156,7 +156,8 @@ updateMenuItem('modeling', lang, '#modelisme #stylisme #recyclage #patronages #m
 
 // Contenu traduisible des informations de contact
 updateMenuItem('contact-title', lang, 'Contact', 'Contact');
-updateMenuItem('follow-me', lang, 'SUIVEZ-MOI !', 'FOLLOW-ME !');
+updateMenuItem('contact-text', lang, 'N\'hésitez pas à me contacter à cette adresse:ou par formulaire de contact:', 'Do not hesitate to contact me at this address:');
+updateMenuItem('contact-form-text', lang, 'ou par formulaire de contact, c\'est avec plaisir que j\'échangerai avec vous.', 'or by contact form, I will be happy to speak with you.');
 updateMenuItem('name', lang, 'Nom', 'Name');
 updateMenuItem('first-name', lang, 'Prénom', 'First name');
 updateMenuItem('send', lang, 'Envoyer', 'Send');
