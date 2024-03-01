@@ -127,6 +127,14 @@ body.dark-mode .scroll-to-top:hover {
    /* Ajoutez d'autres styles spécifiques si nécessaire */
  }
  
+ .presentation-heading {
+   word-wrap: break-word;
+   max-width: 100%;
+   display: block;
+}
+
+
+
 
 /* Styles spécifiques à la section de la présentation */
 .profile-text .lead {
@@ -1063,7 +1071,7 @@ span.h2.contact-title {
    font-weight: bold;
    color: #444243;
    text-decoration: none;
-   margin-left: -10px;
+   margin-left: 0px;
 }
 
 body.dark-mode .email-text {
@@ -1089,6 +1097,11 @@ body.dark-mode .email-text {
 }
 
 
+.email-text {
+   word-wrap: break-word;
+   max-width: 100%; /* La largeur maximale est la largeur du contenant parent */
+   display: block; /* Assurez-vous que le lien occupe toute la largeur disponible */
+}
 
 
 
