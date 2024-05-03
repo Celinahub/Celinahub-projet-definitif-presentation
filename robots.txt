@@ -1,2 +1,4 @@
 User-agent: *
 Disallow:
+Sitemap: https://celinefashiongeek.netlify.app/sitemap.xml
+
