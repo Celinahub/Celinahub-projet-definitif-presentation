@@ -1230,6 +1230,15 @@ body.dark-mode .custom-section {
    background-color: #121212;
 }
 
+.title-color {
+   color: #F9F4F0;
+}
+
+body.dark-mode .title-color {
+   color: #121212;
+}
+
+
 
 
 /* Style du texte mode clair pour activer le mode sombre */
