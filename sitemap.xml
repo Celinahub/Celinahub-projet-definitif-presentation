@@ -1,84 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Page d'accueil -->
-  <url>
-    <loc>https://celinefashiongeek.netlify.app/chubert-portfoliocv/</loc>
-    <lastmod>2024-05-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <!-- Loisirs -->
-  <url>
-    <loc>https://celinefashiongeek.netlify.app/chubert-portfoliocv/images/loisirs/bricolage.jpg</loc>
-  </url>
-  <url>
-    <loc>https://celinefashiongeek.netlify.app/chubert-portfoliocv/images/loisirs/couture.jpg</loc>
-  </url>
-  <url>
-    <loc>https://celinefashiongeek.netlify.app/chubert-portfoliocv/images/loisirs/decoration-interieure.jpg</loc>
-  </url>
-  <url>
-    <loc>https://celinefashiongeek.netlify.app/chubert-portfoliocv/images/loisirs/dessin-encre-de-chine.jpg</loc>
-  </url>
-  <url>
-    <loc>https://celinefashiongeek.netlify.app/chubert-portfoliocv/images/loisirs/developpement-web.jpg</loc>
-  </url>
-  <url>
-    <loc>https://celinefashiongeek.netlify.app/chubert-portfoliocv/images/loisirs/shopping.jpg</loc>
-  </url>
-  <!-- Ajouter les autres images de loisirs -->
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-  <!-- Portfolio -->
-  <url>
-    <loc>https://celinefashiongeek.netlify.app/chubert-portfoliocv/images/portfolio/carre-soie-celine-hubert/motif-graphique-floral-couleur.jpg</loc>
-  </url>
-  <url>
-    <loc>https://celinefashiongeek.netlify.app/chubert-portfoliocv/images/portfolio/carre-soie-celine-hubert/motif-place-floral-couleur.jpg</loc>
-  </url>
-  <url>
-    <loc>https://celinefashiongeek.netlify.app/chubert-portfoliocv/images/portfolio/carre-soie-celine-hubert/sac-logo.jpg</loc>
-  </url>
-  <url>
-    <loc>https://celinefashiongeek.netlify.app/chubert-portfoliocv/images/portfolio/carre-soie-celine-hubert/sneakers.jpg</loc>
-  </url>
-  <url>
-    <loc>https://celinefashiongeek.netlify.app/chubert-portfoliocv/images/portfolio/carre-soie-celine-hubert/sneakers2.jpg</loc>
-  </url>
-  <url>
-    <loc>https://celinefashiongeek.netlify.app/chubert-portfoliocv/images/portfolio/conception-logo-celine-hubert/etape-12-logo-celine-hubert-ch.jpg</loc>
-  </url>
-  <url>
-    <loc>https://celinefashiongeek.netlify.app/chubert-portfoliocv/images/portfolio/conception-logo-celine-hubert/etape-11-logo-celine-hubert-ch.jpg</loc>
-  </url>
-  <url>
-    <loc>https://celinefashiongeek.netlify.app/chubert-portfoliocv/images/portfolio/dossier-technique/descriptif.jpg</loc>
-  </url>
-  <url>
-    <loc>https://celinefashiongeek.netlify.app/chubert-portfoliocv/images/portfolio/dossier-technique/mesures.jpg</loc>
-  </url>
-  <url>
-    <loc>https://celinefashiongeek.netlify.app/chubert-portfoliocv/images/portfolio/dossier-technique/poches-broderie.jpg</loc>
-  </url>
-  <url>
-    <loc>https://celinefashiongeek.netlify.app/chubert-portfoliocv/images/portfolio/dossier-technique/zoom-poche-devant.jpg</loc>
-  </url>
-  <url>
-    <loc>https://celinefashiongeek.netlify.app/chubert-portfoliocv/images/portfolio/dossier-technique/zoom-poche-dos.jpg</loc>
-  </url>
-  
 
-  <!-- Présentation -->
-  <url>
-    <loc>https://celinefashiongeek.netlify.app/chubert-portfoliocv/presentation/cv-celine-hubert.pdf</loc>
-  </url>
-  <url>
-    <loc>https://celinefashiongeek.netlify.app/chubert-portfoliocv/presentation/photo-professionnelle-celine-hubert.jpg</loc>
-  </url>
+<url>
+  <loc>https://celinefashiongeek.netlify.app/</loc>
+  <lastmod>2024-05-04T09:32:38+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://celinefashiongeek.netlify.app/images/presentation/cv-celine-hubert.pdf</loc>
+  <lastmod>2024-05-04T09:32:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 
-  <!-- Répertoire supplémentaire -->
-  <url>
-    <loc>https://celinefashiongeek.netlify.app/chubert-portfoliocv/presentation/</loc>
-  </url>
- 
+
 </urlset>
