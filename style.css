@@ -798,6 +798,71 @@ span.h2.experiences-title {
    }
 
 
+   .experience-subtitle {
+      font-size: 14px;
+      color: #444243; /* Mode clair informations métier */
+      margin: 0;
+   }
+   body.dark-mode .experience-subtitle {
+     color: #ccbcb4; /* Mode sombre informations métier */
+     }
+
+     .experience-date {
+      font-size: 14px;
+      color: #444243; /* Mode clair texte dates */
+      margin: 0;
+      margin-bottom: 10px; /* Ajoutez cette ligne pour gérer l'espace sous la date */
+   }
+   body.dark-mode .experience-date {
+     color: #cdcbcc; /* Mode sombre texte dates */
+     }
+  
+     .keywords {
+      padding: 5px;
+      border-radius: 5px;
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0; /* Supprimer l'espace entre les mots-clés et le titre */
+    }
+    
+    .keyword {
+       
+      margin-right: 5px; /* Marge à droite pour séparer les mots-clés */
+      background-color: transparent;
+      color: #444243;
+      padding: 5px;
+      border: 1px solid #444243;
+      border-radius: 5px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+    body.dark-mode .keyword {
+      color: #ccbcb4; /* Mode sombre texte keyword */
+      border: 1px solid #ccbcb4; /* Mode sombre contour keyword */
+      }
+   
+    /* Ajoutez des styles spécifiques pour les écrans plus petits (par exemple, largeur inférieure à 768px) */
+    @media (max-width: 768px) {
+       .keyword {
+           margin-right: 5px; /* Rétablissez la marge à droite */
+           margin-bottom: 5px; /* Conservez la marge en bas */
+       }
+    }
+
+    .experience-icon {
+      display: flex;
+      align-items: center;
+      position: absolute;
+      left: 23px; /* Ajustez la position de l'icône par rapport à la ligne verticale */
+   }
+   
+   .experience-icon i {
+      font-size: 20px; /* Ajustez la taille de l'icône */
+   }
+   
+
+
+
    .experience-title-specific {
       font-size: 18px;
       color: #C26C6B;/* Mode clair titre métier */
@@ -806,6 +871,19 @@ span.h2.experiences-title {
    body.dark-mode .experience-title-specific {
       color: #C26C6B; /* Mode sombre titre métier */
       }
+
+
+      .experience-description {
+         background-color: #CCBCB4; /* Mode clair fond caché de la description d'expérience */
+         color: #444243; /* Mode clair texte de la description d'expérience */
+         padding: 10px;
+         border-radius: 5px;
+         display: none; /* Gardez la description cachée au chargement de la page */
+      }
+      body.dark-mode .experience-description {
+        background-color: #444243; /* Mode sombre fond caché de la description d'expérience */
+        color: #cdcbcc; /* Mode sombre texte de la description d'expérience */
+        }
 
     
 /* Styles spécifiques pour "Découvrir" */
@@ -822,7 +900,7 @@ body.dark-mode .custom-text {
       /* Ajoutez d'autres styles au besoin, par exemple : */
       text-decoration: none; /* Supprime le soulignement du lien si nécessaire */
       font-weight: bold; /* Ajoute de la graisse au texte si nécessaire */
-      /* Ajoutez d'autres styles personnalisés au besoin */
+      font-size: 14px; 
   }
   
   body.dark-mode .custom-link {
@@ -830,84 +908,16 @@ body.dark-mode .custom-text {
    }
 
 
- .experience-subtitle {
-    font-size: 14px;
-    color: #444243; /* Mode clair informations métier */
-    margin: 0;
- }
- body.dark-mode .experience-subtitle {
-   color: #ccbcb4; /* Mode sombre informations métier */
-   }
  
- .experience-date {
-    font-size: 14px;
-    color: #444243; /* Mode clair texte dates */
-    margin: 0;
-    margin-bottom: 10px; /* Ajoutez cette ligne pour gérer l'espace sous la date */
- }
- body.dark-mode .experience-date {
-   color: #cdcbcc; /* Mode sombre texte dates */
-   }
+ 
 
 
- .keywords {
-    padding: 5px;
-    border-radius: 5px;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0; /* Supprimer l'espace entre les mots-clés et le titre */
-    margin-left: -10px;
-    margin-top: 5px;
- }
- 
- .keyword {
-    
-    margin-right: 5px; /* Marge à droite pour séparer les mots-clés */
-    background-color: transparent;
-    color: #444243; /* Mode clair texte keyword */
-    padding: 5px;
-    border: 1px solid #444243; /* Mode clair contour keyword */
-    border-radius: 5px;
-    font-size: 14px;
-    cursor: pointer;
- }
- body.dark-mode .keyword {
-   color: #ccbcb4; /* Mode sombre texte keyword */
-   border: 1px solid #ccbcb4; /* Mode sombre contour keyword */
-   }
-
- /* Ajoutez des styles spécifiques pour les écrans plus petits (par exemple, largeur inférieure à 768px) */
- @media (max-width: 768px) {
-    .keyword {
-        margin-right: 5px; /* Rétablissez la marge à droite */
-        margin-bottom: 5px; /* Conservez la marge en bas */
-    }
- }
  
  
- .experience-icon {
-    display: flex;
-    align-items: center;
-    position: absolute;
-    left: 23px; /* Ajustez la position de l'icône par rapport à la ligne verticale */
- }
- 
- .experience-icon i {
-    font-size: 20px; /* Ajustez la taille de l'icône */
- }
  
  
- .experience-description {
-    background-color: #CCBCB4; /* Mode clair fond caché de la description d'expérience */
-    color: #444243; /* Mode clair texte de la description d'expérience */
-    padding: 10px;
-    border-radius: 5px;
-    display: none; /* Gardez la description cachée au chargement de la page */
- }
- body.dark-mode .experience-description {
-   background-color: #444243; /* Mode sombre fond caché de la description d'expérience */
-   color: #cdcbcc; /* Mode sombre texte de la description d'expérience */
-   }
+ 
+ 
  
   
 
